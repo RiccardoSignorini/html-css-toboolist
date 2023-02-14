@@ -15,10 +15,6 @@ table{
 }
 
 /* HEADER */
-header{
-    margin-bottom: 50px;
-}
-
 #inline-block{
     display: inline-block;
     vertical-align: middle;
@@ -28,19 +24,41 @@ header{
     vertical-align: middle;
 }
 
-/* TABELLA */
+/* GENERALE */
 main{
     padding: 15px;
-    padding-top: 5px;
+    padding-top: 2px;
     background-color: darkgrey;
 }
 
-#tabella{
+#centratura-bottoni{
+    width: 69%;
+    margin: auto;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 10px;
+}
+
+#centratura-tabella{
     width: 70%;
     margin: auto;
     background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
+
+section{
+    background-color: darkgray;
+    margin-top: 30px;
+}
+
+#blu{
+    background-color: deepskyblue;
+    border-radius: 5px;
+}
+/* TABELLA */
 ul{
     margin-top: 30px;
     margin-bottom: 30px;

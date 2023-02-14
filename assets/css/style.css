@@ -58,6 +58,11 @@ section{
     background-color: deepskyblue;
     border-radius: 5px;
 }
+
+#bianco{
+    background-color: white;
+    border-radius: 5px;
+}
 /* TABELLA */
 ul{
     margin-top: 30px;

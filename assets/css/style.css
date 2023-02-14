@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
 }
 
 li{
@@ -14,8 +15,13 @@ table{
 }
 
 /* HEADER */
+header{
+    margin-bottom: 50px;
+}
+
 #inline-block{
     display: inline-block;
+    vertical-align: middle;
 }
 
 #middle{
@@ -24,7 +30,15 @@ table{
 
 /* TABELLA */
 main{
-    padding-left: 15px;
+    padding: 15px;
+    padding-top: 5px;
+    background-color: darkgrey;
+}
+
+#tabella{
+    width: 70%;
+    margin: auto;
+    background-color: white;
 }
 
 ul{
@@ -32,8 +46,10 @@ ul{
     margin-bottom: 30px;
 }
 
-li p{
+li h4{
     display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 ul li{
@@ -67,6 +83,46 @@ ul h2::before{
 .editorial::after{
     content: 'Editorial';
     background-color: deepskyblue;
+    padding: 4px 8px;
+    border-radius: 14px;
+    color: white;
+}
+
+#q1-goals::after{
+    content: 'Q1 Goals';
+    background-color: blueviolet;
+    padding: 4px 8px;
+    border-radius: 14px;
+    color: white;
+}
+
+#recruiting::after{
+    content: 'Recruiting';
+    background-color: aquamarine;
+    padding: 4px 8px;
+    border-radius: 14px;
+    color: white;
+}
+
+#mobile::after{
+    content: 'Mobile';
+    background-color: darkorange;
+    padding: 4px 8px;
+    border-radius: 14px;
+    color: white;
+}
+
+#website::after{
+    content: 'Website';
+    background-color: hotpink;
+    padding: 4px 8px;
+    border-radius: 14px;
+    color: white;
+}
+
+#sales::after{
+    content: 'Sales';
+    background-color: chartreuse;
     padding: 4px 8px;
     border-radius: 14px;
     color: white;

@@ -6,14 +6,6 @@
     font-family: 'Kanit', sans-serif;
 }
 
-li{
-    margin-left: 1em;
-}
-
-table{
-    border-spacing: 0;
-}
-
 /* HEADER */
 #inline-block{
     display: inline-block;
@@ -24,129 +16,122 @@ table{
     vertical-align: middle;
 }
 
+header{
+    padding: 15px 10px;
+    background-color: white;
+}
+
 /* GENERALE */
+body{
+    background-color: lightgray;
+}
+
+hr{
+    border: 1px solid lightgray;
+}
+
 main{
-    padding: 15px;
-    padding-top: 2px;
-    background-color: darkgrey;
+    padding: 80px;
+    border: auto;
+}
+/* BOTTONI */
+button{
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: transparent;
 }
 
 #centratura-bottoni{
-    width: 69%;
-    margin: auto;
+    width: 80%;
+    height: 30px auto 0 auto;
     background-color: white;
-    border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    padding-left: 10px;
-}
-
-#centratura-tabella{
-    width: 70%;
-    margin: auto;
-    background-color: white;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-
-section{
-    background-color: darkgray;
-    margin-top: 30px;
+    border-top-left-radius: 5px;
+    border-top: 30px;
 }
 
 #blu{
     background-color: deepskyblue;
-    border-radius: 5px;
 }
 
-#bianco{
-    background-color: white;
-    border-radius: 5px;
+section > div{
+    padding: 10px;
+    border-left: auto;
+    border-right: auto;
 }
+
 /* TABELLA */
-ul{
-    margin-top: 30px;
-    margin-bottom: 30px;
+#centratura-tabella{
+    width: 80%;
+    height: 30px auto 0 auto;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top: 30px;
 }
 
 li h4{
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 ul li{
     list-style-type: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 5px;
 }
 
 ul h2::before{
-    content: '\25bc';
+    content: '\25be';
 }
 
 .fatto::before{
     content: '\2713';
+    border-radius: 50%;
+    padding: 2px 6px;
     border: 1px solid green;
     color: green;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
 }
 
 .non-fatto::before{
-    content: '\2717';
+    content: '\2715';
+    border-radius: 50%;
+    padding: 2px 6px;
     border: 1px solid red;
     color: red;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+}
+
+li::after{
+    padding: 4px 8px;
+    border-radius: 14px;
+    color: white;
 }
 
 .editorial::after{
     content: 'Editorial';
     background-color: deepskyblue;
-    padding: 4px 8px;
-    border-radius: 14px;
-    color: white;
 }
 
 #q1-goals::after{
     content: 'Q1 Goals';
     background-color: blueviolet;
-    padding: 4px 8px;
-    border-radius: 14px;
-    color: white;
 }
 
 #recruiting::after{
     content: 'Recruiting';
     background-color: aquamarine;
-    padding: 4px 8px;
-    border-radius: 14px;
-    color: white;
 }
 
 #mobile::after{
     content: 'Mobile';
     background-color: darkorange;
-    padding: 4px 8px;
-    border-radius: 14px;
-    color: white;
 }
 
 #website::after{
     content: 'Website';
     background-color: hotpink;
-    padding: 4px 8px;
-    border-radius: 14px;
-    color: white;
 }
 
 #sales::after{
     content: 'Sales';
     background-color: chartreuse;
-    padding: 4px 8px;
-    border-radius: 14px;
-    color: white;
 }

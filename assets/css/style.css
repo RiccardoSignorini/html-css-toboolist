@@ -19,6 +19,7 @@
 header{
     padding: 15px 10px;
     background-color: white;
+    margin-top: 15px;
 }
 
 /* GENERALE */
@@ -31,8 +32,8 @@ hr{
 }
 
 main{
-    padding: 80px;
-    border: auto;
+    padding: 70px;
+    padding-left: 20%
 }
 /* BOTTONI */
 button{
@@ -56,9 +57,8 @@ button{
 }
 
 section > div{
-    padding: 10px;
-    border-left: auto;
-    border-right: auto;
+    padding: 30px;
+
 }
 
 /* TABELLA */
